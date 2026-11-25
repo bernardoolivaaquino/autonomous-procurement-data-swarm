@@ -1,0 +1,7 @@
+rank,quote_id,supplier_id,supplier_name,source_language,status,applicable_tier_range,unit_price_original,original_currency,unit_price_usd,merchandise_subtotal_usd,tooling_fee_usd,shipping_and_incoterm_usd,lead_time_business_days,delay_days,delay_penalty_usd,total_cost_of_ownership_usd,delivery_risk_score,composite_score,warnings_count
+1,Q-02,SUP-LYON-FR,Atelier Mécanique de Lyon SAS,fr,COMPLETE,100-499,134.5,EUR,145.9325,36483.12,379.75,2371.4,15.0,0.0,0.0,39234.28,14.0,40058.2,0
+2,Q-05,SUP-MWC-US,Midwest CNC Components Inc.,en,COMPLETE,100-499,154.0,USD,154.0,38500.0,0.0,2112.5,15.0,0.0,0.0,40612.5,14.0,41465.36,0
+3,Q-01,SUP-APEX-US,Apex Precision Machining LLC,en,COMPLETE,100-499,162.5,USD,162.5,40625.0,450.0,0.0,12.0,0.0,0.0,41075.0,10.0,41691.12,0
+4,Q-04,SUP-TLS-FR,MécaPrécision Toulouse SARL,fr,COMPLETE,100-499,126.0,EUR,136.71,34177.5,542.5,3374.35,25.0,10.0,3500.0,41594.35,68.0,45836.97,1
+5,Q-03,SUP-QRO-MX,Industrias Mecánicas Querétaro S.A. de C.V.,en,COMPLETE,100-499,2580.0,MXN,149.64,37410.0,377.0,4115.1,20.0,5.0,1750.0,43652.1,43.0,46467.66,1
+,Q-06,SUP-MTL-CA,Usinage Aéronautique Montréal Inc.,fr,INCOMPLETE_DATA,100-499,2720.0,MXN,157.76,39440.0,464.0,4732.8,,0.0,0.0,,70.0,,3

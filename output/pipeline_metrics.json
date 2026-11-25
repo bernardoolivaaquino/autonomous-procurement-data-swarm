@@ -1,0 +1,17 @@
+{
+  "rfq_reference": "RFQ-IND-2026-088",
+  "model_used": "deterministic",
+  "quotes_processed": 6,
+  "complete_quotes": 5,
+  "incomplete_quotes": 1,
+  "ambiguity_flags_total": 5,
+  "hygiene_actions_total": 16,
+  "counteroffers_generated": 5,
+  "recommended_supplier_id": "SUP-LYON-FR",
+  "recommended_tco_usd": 39234.28,
+  "second_best_tco_usd": 40612.5,
+  "tco_savings_vs_next_best_usd": 1378.22,
+  "tco_spread_usd": 4417.82,
+  "execution_time_seconds": 0.0727,
+  "estimated_manual_hours_saved": 4.5
+}

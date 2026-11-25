@@ -1,0 +1,66 @@
+{
+  "rfq_reference": "RFQ-IND-2026-088",
+  "all_gates_passed": true,
+  "metrics": {
+    "quotes_evaluated": 6,
+    "schema_compliance_rate": 1.0,
+    "field_extraction_accuracy_rate": 1.0,
+    "field_checks_passed": 71,
+    "field_checks_total": 71,
+    "hallucination_count": 0,
+    "tco_accuracy_rate": 1.0,
+    "tco_checks_passed": 6,
+    "tco_checks_total": 6,
+    "counteroffer_language_fidelity_rate": 1.0,
+    "counteroffer_checks_passed": 5,
+    "counteroffer_checks_total": 5,
+    "recommended_supplier_id": "SUP-LYON-FR",
+    "actual_ranking_order": [
+      "SUP-LYON-FR",
+      "SUP-MWC-US",
+      "SUP-APEX-US",
+      "SUP-TLS-FR",
+      "SUP-QRO-MX"
+    ]
+  },
+  "gates": {
+    "schema_compliance_100pct": true,
+    "zero_hallucinations": true,
+    "field_extraction_100pct": true,
+    "tco_accuracy_100pct_within_5_cents": true,
+    "counteroffer_language_fidelity_100pct": true,
+    "winner_and_ranking_exact_match": true
+  },
+  "per_quote_details": [
+    {
+      "source_file": "quote_01_apex_precision_en.csv",
+      "supplier_id": "SUP-APEX-US",
+      "issues": []
+    },
+    {
+      "source_file": "quote_02_atelier_lyon_fr.md",
+      "supplier_id": "SUP-LYON-FR",
+      "issues": []
+    },
+    {
+      "source_file": "quote_03_industrias_queretaro_en.csv",
+      "supplier_id": "SUP-QRO-MX",
+      "issues": []
+    },
+    {
+      "source_file": "quote_04_meca_toulouse_fr.csv",
+      "supplier_id": "SUP-TLS-FR",
+      "issues": []
+    },
+    {
+      "source_file": "quote_05_midwest_cnc_en.txt",
+      "supplier_id": "SUP-MWC-US",
+      "issues": []
+    },
+    {
+      "source_file": "quote_06_usinage_montreal_fr.md",
+      "supplier_id": "SUP-MTL-CA",
+      "issues": []
+    }
+  ]
+}

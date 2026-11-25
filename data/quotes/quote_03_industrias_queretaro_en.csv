@@ -1,0 +1,7 @@
+RFQ_Ref;Supplier_ID;Supplier_Name;Email;Language;Currency;Incoterm;Incoterm_Location;Lead_Time;Qty_Tier;Unit_Price;Tooling_Fee;Shipping_Fee;Payment_Terms;Certifications;quote_valid_until;Notes
+RFQ-IND-2026-088 ; SUP-QRO-MX ;  Industrias Mecánicas Querétaro S.A. de C.V. ; ventas@imq-industrial.example ; en ; MXN ; EXW ; Parque Industrial Querétaro ; 28 calendar days ; 1-99 ; MX$2,950.00 ; MX$6,500.00 ;  ; Net 45 ; ISO 9001:2015 ;  ; PART-HMB-7075-088 CNC-Machined 7075-T6 Hydraulic Manifold Block
+RFQ-IND-2026-088 ; SUP-QRO-MX ;  Industrias Mecánicas Querétaro S.A. de C.V. ; ventas@imq-industrial.example ; en ; MXN ; EXW ; Parque Industrial Querétaro ; 28 calendar days ;  100-499 ; MX$2,580.00 ;  MX$6,500.00 ; ; Net 45 ; ISO 9001:2015 ; ; Standard production batch - buyer arranges EXW pickup
+RFQ-IND-2026-088 ; SUP-QRO-MX ; Industrias Mecánicas Querétaro S.A. de C.V.  ; ventas@imq-industrial.example ; en ; MXN ; EXW ; Parque Industrial Querétaro ; 28 calendar days ; 500+ ; MX$2,320.00 ; MX$6,500.00 ;  ; Net 45 ; ISO 9001:2015 ;  ; High volume pricing; validity date omitted by sales rep
+;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;
+

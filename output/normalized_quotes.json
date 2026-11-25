@@ -1,0 +1,335 @@
+[
+  {
+    "quote_id": "Q-01",
+    "source_file": "data/quotes/quote_01_apex_precision_en.csv",
+    "supplier_id": "SUP-APEX-US",
+    "supplier_name": "Apex Precision Machining LLC",
+    "supplier_email": "quotes@apexprecision-us.example",
+    "source_language": "en",
+    "rfq_reference": "RFQ-IND-2026-088",
+    "part_number": "PART-HMB-7075-088",
+    "part_description": "CNC-Machined 7075-T6 Hydraulic Manifold Block",
+    "currency": "USD",
+    "incoterm": "DDP",
+    "incoterm_location": "Querétaro Plant",
+    "lead_time_value": 12.0,
+    "lead_time_max_value": null,
+    "lead_time_unit": "business_days",
+    "price_tiers": [
+      {
+        "min_qty": 1,
+        "max_qty": 99,
+        "unit_price": 185.0
+      },
+      {
+        "min_qty": 100,
+        "max_qty": 499,
+        "unit_price": 162.5
+      },
+      {
+        "min_qty": 500,
+        "max_qty": null,
+        "unit_price": 148.0
+      }
+    ],
+    "tooling_fee": 450.0,
+    "shipping_fee": 0.0,
+    "payment_terms": "Net 30",
+    "certifications": [
+      "ISO 9001:2015",
+      "AS9100D"
+    ],
+    "quote_valid_until": "2026-12-31",
+    "ambiguity_flags": [],
+    "extraction_notes": [
+      "Parsed structured CSV quote (4 raw data rows -> 3 unique price tiers)."
+    ],
+    "master_data_hygiene_actions": [
+      "Stripped UTF-8 BOM prefix from CSV file.",
+      "Skipped 2 leading metadata comment line(s).",
+      "Deduplicated repeated volume price tier row (100-499 @ 162.5).",
+      "Trimmed whitespace and normalized localized currency symbols/separators in CSV cells."
+    ]
+  },
+  {
+    "quote_id": "Q-02",
+    "source_file": "data/quotes/quote_02_atelier_lyon_fr.md",
+    "supplier_id": "SUP-LYON-FR",
+    "supplier_name": "Atelier Mécanique de Lyon SAS",
+    "supplier_email": "devis@atelier-lyon.example",
+    "source_language": "fr",
+    "rfq_reference": "RFQ-IND-2026-088",
+    "part_number": "PART-HMB-7075-088",
+    "part_description": "CNC-Machined 7075-T6 Hydraulic Manifold Block",
+    "currency": "EUR",
+    "incoterm": "FOB",
+    "incoterm_location": "Port de Marseille",
+    "lead_time_value": 3.0,
+    "lead_time_max_value": null,
+    "lead_time_unit": "weeks",
+    "price_tiers": [
+      {
+        "min_qty": 1,
+        "max_qty": 99,
+        "unit_price": 155.0
+      },
+      {
+        "min_qty": 100,
+        "max_qty": 499,
+        "unit_price": 134.5
+      },
+      {
+        "min_qty": 500,
+        "max_qty": null,
+        "unit_price": 122.0
+      }
+    ],
+    "tooling_fee": 350.0,
+    "shipping_fee": null,
+    "payment_terms": "45 jours fin de mois",
+    "certifications": [
+      "EN 9100",
+      "ISO 9001"
+    ],
+    "quote_valid_until": "2026-12-20",
+    "ambiguity_flags": [],
+    "extraction_notes": [
+      "Parsed unstructured OCR document into 3 price tiers."
+    ],
+    "master_data_hygiene_actions": [
+      "Stripped simulated PDF OCR page headers/footers.",
+      "Normalized OCR table spacing, localized decimal commas, and space thousands separators."
+    ]
+  },
+  {
+    "quote_id": "Q-03",
+    "source_file": "data/quotes/quote_03_industrias_queretaro_en.csv",
+    "supplier_id": "SUP-QRO-MX",
+    "supplier_name": "Industrias Mecánicas Querétaro S.A. de C.V.",
+    "supplier_email": "ventas@imq-industrial.example",
+    "source_language": "en",
+    "rfq_reference": "RFQ-IND-2026-088",
+    "part_number": "PART-HMB-7075-088",
+    "part_description": "CNC-Machined 7075-T6 Hydraulic Manifold Block",
+    "currency": "MXN",
+    "incoterm": "EXW",
+    "incoterm_location": "Parque Industrial Querétaro",
+    "lead_time_value": 28.0,
+    "lead_time_max_value": null,
+    "lead_time_unit": "calendar_days",
+    "price_tiers": [
+      {
+        "min_qty": 1,
+        "max_qty": 99,
+        "unit_price": 2950.0
+      },
+      {
+        "min_qty": 100,
+        "max_qty": 499,
+        "unit_price": 2580.0
+      },
+      {
+        "min_qty": 500,
+        "max_qty": null,
+        "unit_price": 2320.0
+      }
+    ],
+    "tooling_fee": 6500.0,
+    "shipping_fee": null,
+    "payment_terms": "Net 45",
+    "certifications": [
+      "ISO 9001:2015"
+    ],
+    "quote_valid_until": null,
+    "ambiguity_flags": [
+      {
+        "field_name": "quote_valid_until",
+        "raw_value": null,
+        "reason": "Quote expiration/validity date is missing in CSV.",
+        "severity": "HIGH"
+      }
+    ],
+    "extraction_notes": [
+      "Parsed structured CSV quote (3 raw data rows -> 3 unique price tiers)."
+    ],
+    "master_data_hygiene_actions": [
+      "Removed empty delimiter-only trailing CSV row.",
+      "Removed empty delimiter-only trailing CSV row.",
+      "Normalized semicolon-delimited CSV format.",
+      "Trimmed whitespace and normalized localized currency symbols/separators in CSV cells."
+    ]
+  },
+  {
+    "quote_id": "Q-04",
+    "source_file": "data/quotes/quote_04_meca_toulouse_fr.csv",
+    "supplier_id": "SUP-TLS-FR",
+    "supplier_name": "MécaPrécision Toulouse SARL",
+    "supplier_email": "commercial@mecaprecision-tls.example",
+    "source_language": "fr",
+    "rfq_reference": "RFQ-IND-2026-088",
+    "part_number": "PART-HMB-7075-088",
+    "part_description": "CNC-Machined 7075-T6 Hydraulic Manifold Block",
+    "currency": "EUR",
+    "incoterm": "EXW",
+    "incoterm_location": "Toulouse",
+    "lead_time_value": 4.0,
+    "lead_time_max_value": 6.0,
+    "lead_time_unit": "weeks",
+    "price_tiers": [
+      {
+        "min_qty": 1,
+        "max_qty": 99,
+        "unit_price": 142.0
+      },
+      {
+        "min_qty": 100,
+        "max_qty": 499,
+        "unit_price": 126.0
+      },
+      {
+        "min_qty": 500,
+        "max_qty": null,
+        "unit_price": 114.5
+      }
+    ],
+    "tooling_fee": 500.0,
+    "shipping_fee": 1850.0,
+    "payment_terms": "À convenir",
+    "certifications": [
+      "ISO 9001"
+    ],
+    "quote_valid_until": "2026-12-15",
+    "ambiguity_flags": [
+      {
+        "field_name": "lead_time",
+        "raw_value": "4-6 semaines",
+        "reason": "Ambiguous lead-time range (4-6 weeks); midpoint required for TCO.",
+        "severity": "MEDIUM"
+      },
+      {
+        "field_name": "payment_terms",
+        "raw_value": "À convenir",
+        "reason": "Payment terms are open-ended ('À convenir') and require commercial finalization.",
+        "severity": "MEDIUM"
+      }
+    ],
+    "extraction_notes": [
+      "Parsed structured CSV quote (3 raw data rows -> 3 unique price tiers)."
+    ],
+    "master_data_hygiene_actions": [
+      "Normalized semicolon-delimited CSV format.",
+      "Trimmed whitespace and normalized localized currency symbols/separators in CSV cells."
+    ]
+  },
+  {
+    "quote_id": "Q-05",
+    "source_file": "data/quotes/quote_05_midwest_cnc_en.txt",
+    "supplier_id": "SUP-MWC-US",
+    "supplier_name": "Midwest CNC Components Inc.",
+    "supplier_email": "rfq@midwestcnc.example",
+    "source_language": "en",
+    "rfq_reference": "RFQ-IND-2026-088",
+    "part_number": "PART-HMB-7075-088",
+    "part_description": "CNC-Machined 7075-T6 Hydraulic Manifold Block",
+    "currency": "USD",
+    "incoterm": "FOB",
+    "incoterm_location": "Chicago IL",
+    "lead_time_value": 21.0,
+    "lead_time_max_value": null,
+    "lead_time_unit": "calendar_days",
+    "price_tiers": [
+      {
+        "min_qty": 1,
+        "max_qty": 99,
+        "unit_price": 178.0
+      },
+      {
+        "min_qty": 100,
+        "max_qty": 499,
+        "unit_price": 154.0
+      },
+      {
+        "min_qty": 500,
+        "max_qty": null,
+        "unit_price": 139.5
+      }
+    ],
+    "tooling_fee": 0.0,
+    "shipping_fee": 1150.0,
+    "payment_terms": "Net 30",
+    "certifications": [
+      "ISO 9001:2015"
+    ],
+    "quote_valid_until": "2026-12-28",
+    "ambiguity_flags": [],
+    "extraction_notes": [
+      "Parsed unstructured OCR document into 3 price tiers."
+    ],
+    "master_data_hygiene_actions": [
+      "Stripped simulated PDF OCR page headers/footers.",
+      "Normalized OCR table spacing, localized decimal commas, and space thousands separators."
+    ]
+  },
+  {
+    "quote_id": "Q-06",
+    "source_file": "data/quotes/quote_06_usinage_montreal_fr.md",
+    "supplier_id": "SUP-MTL-CA",
+    "supplier_name": "Usinage Aéronautique Montréal Inc.",
+    "supplier_email": "soumissions@usinage-mtl.example",
+    "source_language": "fr",
+    "rfq_reference": "RFQ-IND-2026-088",
+    "part_number": "PART-HMB-7075-088",
+    "part_description": "CNC-Machined 7075-T6 Hydraulic Manifold Block",
+    "currency": "MXN",
+    "incoterm": null,
+    "incoterm_location": null,
+    "lead_time_value": null,
+    "lead_time_max_value": null,
+    "lead_time_unit": null,
+    "price_tiers": [
+      {
+        "min_qty": 1,
+        "max_qty": 99,
+        "unit_price": 3100.0
+      },
+      {
+        "min_qty": 100,
+        "max_qty": 499,
+        "unit_price": 2720.0
+      },
+      {
+        "min_qty": 500,
+        "max_qty": null,
+        "unit_price": 2450.0
+      }
+    ],
+    "tooling_fee": 8000.0,
+    "shipping_fee": null,
+    "payment_terms": "30 jours net",
+    "certifications": [
+      "AS9100D"
+    ],
+    "quote_valid_until": "2026-12-18",
+    "ambiguity_flags": [
+      {
+        "field_name": "incoterm",
+        "raw_value": "À confirmer selon transporteur *(NON CONFIRMÉ / AMBIGUOUS — Incoterm non spécifié à ce stade)*",
+        "reason": "Incoterm is explicitly unconfirmed / ambiguous in supplier quote.",
+        "severity": "HIGH"
+      },
+      {
+        "field_name": "lead_time",
+        "raw_value": "TBD / selon disponibilité matière *(NON CONFIRMÉ — délai exact à valider après réception de commande)*",
+        "reason": "Lead time is unconfirmed / TBD in supplier quote.",
+        "severity": "HIGH"
+      }
+    ],
+    "extraction_notes": [
+      "Parsed unstructured OCR document into 3 price tiers."
+    ],
+    "master_data_hygiene_actions": [
+      "Stripped simulated PDF OCR page headers/footers.",
+      "Normalized OCR table spacing, localized decimal commas, and space thousands separators."
+    ]
+  }
+]

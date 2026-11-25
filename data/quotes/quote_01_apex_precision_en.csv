@@ -1,0 +1,8 @@
+﻿# Apex Precision Machining LLC - Automated Quote Export
+# RFQ: RFQ-IND-2026-088 | Part: PART-HMB-7075-088 (CNC-Machined 7075-T6 Hydraulic Manifold Block)
+
+Supplier_Name,Supplier_ID,Email,Language,Currency,Incoterm,Delivery_Location,Lead_Time,Qty_Range,UNIT_PRICE,Tooling_Fee,Shipping_Cost,Payment_Terms,Certifications,Quote_Valid_Until,Notes
+  Apex Precision Machining LLC  , SUP-APEX-US , quotes@apexprecision-us.example , en , USD , DDP , Querétaro Plant , 12 business days , 1-99 ,  $185.00 , $450.00 , $0.00 , Net 30 , "ISO 9001:2015, AS9100D" , 2026-12-31 , Standard prototype/low-volume tier
+  Apex Precision Machining LLC  , SUP-APEX-US , quotes@apexprecision-us.example , en , USD , DDP , Querétaro Plant , 12 business days , 100-499 ,  $162.50 , $450.00 , $0.00 , Net 30 , "ISO 9001:2015, AS9100D" , 2026-12-31 , Production batch tier (target 250 units)
+  Apex Precision Machining LLC  , SUP-APEX-US , quotes@apexprecision-us.example , en , USD , DDP , Querétaro Plant , 12 business days , 100-499 ,  $162.50 , $450.00 , $0.00 , Net 30 , "ISO 9001:2015, AS9100D" , 2026-12-31 , DUPLICATE EXPORT ROW - please ignore duplicate 100-499 entry; freight included in DDP
+  Apex Precision Machining LLC  , SUP-APEX-US , quotes@apexprecision-us.example , en , USD , DDP , Querétaro Plant , 12 business days , 500+ ,  $148.00 , $450.00 , $0.00 , Net 30 , "ISO 9001:2015, AS9100D" , 2026-12-31 , High-volume tier; tooling one-time NRE

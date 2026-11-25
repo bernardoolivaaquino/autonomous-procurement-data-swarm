@@ -1,0 +1,5 @@
+Ref_RFQ;Code_Fournisseur;Fournisseur;Email;Langue;Devise;Incoterm;Lieu_Incoterm;Delai_Livraison;Quantite_Palier;Prix_Unitaire_HT;Outillage_CNC;Frais_de_port;Conditions_Paiement;Certifications;Validite_Offre;Commentaire
+
+RFQ-IND-2026-088;SUP-TLS-FR;MécaPrécision Toulouse SARL;commercial@mecaprecision-tls.example;fr;EUR;EXW;Toulouse;4-6 semaines;1-99;142,00 €;500,00 €;1 850,00 €;"À convenir";ISO 9001;2026-12-15;Bloc collecteur hydraulique 7075-T6 (PART-HMB-7075-088)
+RFQ-IND-2026-088;SUP-TLS-FR;MécaPrécision Toulouse SARL;commercial@mecaprecision-tls.example;fr;EUR;EXW;Toulouse;4-6 semaines;100-499;126,00 €;500,00 €;1 850,00 €;"À convenir";ISO 9001;2026-12-15;Lot cible 250 unités - délai indicatif 4-6 semaines
+RFQ-IND-2026-088;SUP-TLS-FR;MécaPrécision Toulouse SARL;commercial@mecaprecision-tls.example;fr;EUR;EXW;Toulouse;4-6 semaines;500+;114,50 €;500,00 €;1 850,00 €;"À convenir";ISO 9001;2026-12-15;Tarif grande série

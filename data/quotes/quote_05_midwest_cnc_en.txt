@@ -1,0 +1,34 @@
+========================================================================
+       MIDWEST CNC COMPONENTS INC.  --  OFFICIAL QU0TATION (OCR DUMP)
+========================================================================
+Page 1 of 1                                      RFQ Ref: RFQ-IND-2026-088
+Supplier ID : SUP-MWC-US                         Part No: PART-HMB-7075-088
+Contact     : rfq@midwestcnc.example             Lang   : en
+Description : CNC-Machined 7075-T6 Hydraulic Manifold Block
+------------------------------------------------------------------------
+
++----------------------+---------------------+-------------------------+
+| Quantity  Tier       |  Unit  Price (USD)  |  Remarks                |
++----------------------+---------------------+-------------------------+
+|  1 - 99   pcs        |    $178.00          |  Small  batch           |
+|  100 - 499  pcs      |    $154.00          |  Target  qty 250 units  |
+|  500+  pcs           |    $139.50          |  Volume  discount       |
++----------------------+---------------------+-------------------------+
+
+ADDITIONAL CHARGES  &  LOGISTICS  DETAILS:
+  * Currency          :  USD
+  * Incoterm          :  FOB (Chicago IL)
+  * Explicit Freight  :  $1,150.00  (flat palletized air/LTL to border)
+  * Tooling  /  NRE   :  $0.00  (waived for RFQ-IND-2026-088)
+  * Lead  Time        :  21 calendar days  after PO receipt
+  * Payment  Terms    :  Net 30
+  * Certifications    :  ISO 9001:2015
+  * Quote Valid Until :  2026-12-28
+
+------------------------------------------------------------------------
+BOILERPLATE TERMS & CONDITIONS (EXTRACTED):
+1. All prices quoted in United States Dollars (USD) exclusive of duties.
+2. Material certifications for 7075-T6 aluminum bar stock included.
+3. Order cancellations subject to 15% restocking and WIP recovery fee.
+4. Standard warranty 12 months from shipment FOB Chicago IL.
+========================================================================
